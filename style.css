@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #5D3A58;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #5D3A58;
+  padding: 16px 0;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+#navbar a:hover {
+  background-color: #F9D5D3;
+  color: #5D3A58;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 64px 32px;
+  background-color: #F9D5D3; /* Blush Pink */
+}
+
+.hero img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 50%;
+}
+
+.hero h2 {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  color: #5D3A58;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #5D3A58;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.cta-button:hover {
+  background-color: #F9D5D3;
+  color: #5D3A58;
+}
+
+/* Bio Section */
+.bio {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 32px;
+}
+
+.bio-image img {
+  max-width: 50%;
+  border-radius: 12px;
+}
+
+.bio-text {
+  max-width: 45%;
+}
+
+.bio-text h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+/* Accomplishments Section */
+.accomplishments {
+  padding: 64px 32px;
+  background-color: #F6E9D7; /* Warm Beige */
+}
+
+.accomplishments-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.accomplishment-item img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.accomplishment-item p {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 12px;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 64px 32px;
+  background-color: #F6E9D7; /* Warm Beige */
+}
+
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item p {
+  font-size: 16px;
+  color: #333333;
+  margin-top: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: #5D3A58;
+  color: white;
+  padding: 16px 0;
+  text-align: center;
+}
